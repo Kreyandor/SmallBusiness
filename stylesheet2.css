@@ -1,0 +1,19 @@
+*{
+	margin:0;
+	outline:1px solid red;
+}
+header{
+	height:100px;
+	background:yellow;
+	
+
+	
+}
+h1{
+	position:absolute;
+	background:red;
+	margin:0 auto;
+	
+	left:60px;
+	margin:0px auto;
+}

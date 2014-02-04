@@ -1,0 +1,217 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration:none;
+}
+html{
+	background:#ebebeb;
+}
+h1{
+	font-size:32px;
+	color:#757575;
+	float:left;
+	font-family:"Brush Script Std",serif;
+	margin-left:35px;
+}
+
+#BuyButton,#SearchYours{
+	display:block;
+	position:absolute;
+	right:0;
+	left:0;
+	font-size:20px;
+	font-family:Helvetica,sans-serif;
+	margin:0px auto;
+	width:100px;
+	padding:13px;
+	text-align:center;
+	border-radius:4px;
+	color:white;
+}
+#BuyButton{
+	background:-moz-linear-gradient(#8dc63f, #acd373);
+	background:-webkit-linear-gradient(#8dc63f, #acd373);
+	background:-o-linear-gradient(#8dc63f, #acd373);
+	background:-ms-linear-gradient(#8dc63f,#acd373);
+	background:linear-gradient(#8dc63f, #acd373);
+}
+#BuyButton:hover,#SearchYours:hover, input[type="submit"]:hover{
+	text-decoration:underline;
+}
+header{
+	position:fixed;
+	background:white;
+	border-bottom:1px solid #e5e5e5;
+	right:0;
+	left:0;
+	top:0;
+	padding:13px 0;
+	min-width:1000px;
+	z-index:10;
+	
+}
+.Nav{
+	float:right;
+	margin-right:35px;
+	padding:13px 0;
+	
+}
+.Nav li{
+	display:inline-block;
+	margin-right:20px;
+	font-size:20px;
+	font-family:Helvetica,sans-serif;
+	color:#757575;
+	cursor:pointer;
+}
+.Nav li:hover{
+	text-decoration:underline;
+}
+.MFGlasses,.MaleGlasses,.FemaleGlasses, .Glasses{
+	width:1440px;
+	height:720px;
+	background:url("images/MFGlasses.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	margin:0 auto;
+	
+}
+.MaleGlasses{
+	background:url("images/MaleGlasses.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.FemaleGlasses{
+	background:url("images/FemaleGlasses.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:70% 20%;
+}
+.Glasses{
+	background:url("images/Glasses.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.MFGlasses section{
+	position:relative;
+	margin-left:170px;
+	top:300px;
+
+}
+ .MaleGlasses section{
+ 	position:relative;
+ 	top:100px;
+ 	width:400px;
+ }
+ .FemaleGlasses section{
+ 	position:relative;
+ 	top:200px;
+ 	margin-left:200px;
+ 	
+ }
+ .Glasses section{
+ 	position:relative;
+ 	top:170px;
+ 	width:500px;
+ 	left:600px;
+ }
+#SearchYours{
+	width:130px;
+	top:150px;
+	right:700px;
+	background:-webkit-linear-gradient(#00bff3,#00aeef);
+	background:-moz-linear-gradient(#00bff3,#00aeef);
+	background:-o-linear-gradient(#00bff3,#00aeef);
+	background:-ms-linear-gradient(#00bff3,#00aeef);
+	background:linear-gradient(#00bff3,#00aeef);
+}
+.MFGlasses h2,.MaleGlasses h2, .FemaleGlasses h2, .Glasses h2{
+	
+	margin-left:25px;
+	color:white;
+	font-size:50px;
+	font-family:Palatino Linotype,serif;
+	position:relative;
+}
+
+.MFGlasses h3,.MaleGlasses h3, .FemaleGlasses h3, .Glasses h3{
+	margin-left:25px;
+	color:white;
+	font-size:20px;
+	font-family:Complex,sans-serif;
+}
+
+form{
+	margin:15px auto;
+	display:block;
+	width:370px;
+	padding:20px;
+	
+	
+}
+label{
+	color:white;
+	font-size:32px;
+}
+input[type="email"]{
+	border:1px solid rgba(149,149,149,0.9);
+	display:block;
+	width:300px;
+	margin:12px 0;
+}
+input[type="submit"]{
+	background: -webkit-linear-gradient(#8dc63f, #acd373);
+	border:1px solid #acd373;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:8px;
+	color:white;
+	font-size:20px;
+	
+}
+footer{
+	position:absolute;
+	left:0;
+	right:0;
+	background-color:white;
+	border-top:1px solid #E4E4E4;
+	min-width:1440px;
+	width:100%;
+	display:block;
+	
+}
+
+.Info{
+	float:left;
+	padding:20px;
+}
+.Info li{
+	margin-left:25px;
+	display:inline-block;
+	color:#666666;
+}
+.Info li a{
+	color:#666666;
+}
+.clear_both{
+	clear:both;
+}
+/*Inspired by Smugmug and Google*/
